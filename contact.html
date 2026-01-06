@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>اتصل بنا - سوقنا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="sub-header">
+    <div class="overlay">
+        <img src="images/logo.png" alt="شعار سوقنا" class="logo">
+        <h1>اتصل بنا</h1>
+        <p>يمكنك مراسلتنا عبر النموذج أدناه</p>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">من نحن</a>
+    <a href="contact.html">اتصل بنا</a>
+</nav>
+
+<main>
+    <section class="contact-form">
+        <h2>نموذج الاتصال</h2>
+        <form onsubmit="showFormMessage(event)">
+            <label>الاسم:</label>
+            <input type="text" name="name" required>
+            <label>البريد الإلكتروني:</label>
+            <input type="email" name="email" required>
+            <label>الرسالة:</label>
+            <textarea name="message" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 سوقنا جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
